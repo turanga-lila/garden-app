@@ -2,5 +2,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_reactive_ble: ^5.0.2
-  permission_handler: ^11.0.1  # Optional but recommended for runtime permissions
+  permission_handler: ^11.3.0  
+  # Use the latest version  
+  # Optional but recommended for runtime permissions
+  environment:
+    sdk: '^3.8.0'
 
