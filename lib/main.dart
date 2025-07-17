@@ -29,7 +29,7 @@ class _BleScannerPageState extends State<BleScannerPage> {
 
   @override
   void initState() {
-    await PermissionService.requestBlePermissions();
+  //  await PermissionService.requestBlePermissions();
     super.initState();
     flutterReactiveBle.scanForDevices(withServices: [], scanMode: ScanMode.lowLatency).listen((device) {
       if (_devices.every((d) => d.id != device.id)) {
