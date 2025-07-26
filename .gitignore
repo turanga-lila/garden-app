@@ -1,1 +1,20 @@
+# Flutter/Dart build artifacts
 .dart_tool/
+.packages
+.pub-cache/
+build/
+# IntelliJ/VSCode
+.idea/
+.vscode/
+
+# Flutter plugins & generated metadata
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# macOS
+.DS_Store
+
+# Other
+*.iml
+*.log
+
